@@ -1,0 +1,22 @@
+/**En la table, th i td, volem una mateixa font, el border i que
+les cel·les que estiguin unides entre sí, el padings ens fa que
+hi hagi un marge entre el border i les nostres lletres, i font-size 
+que totes tinguin el mateix tamany de text.**/
+table, th, td{
+    font-family: Verdana;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    font-size:15px
+}
+/**El th volem que el fons de les lletres sigui de colo aquamarine**/
+th{
+    background-color: aquamarine
+}
+/**Volem que el caption tingui la lletra de color violeta, que 
+la diferencia entre linies sigui de 10px i que la lletra tingui 15px**/
+caption{
+    color: blueviolet;
+    padding: 10px;
+    font-size:15px
+}
