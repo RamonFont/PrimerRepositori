@@ -1,3 +1,7 @@
+/**Configurem el disseny de la nostra taula amb el tag font-family on podem escollir el tipus de font que volem per al nostre text,
+el tag border que fa que la nostra taula tingui bordes marcats, el tag border collapse fa que els bordes de la nostre taula s'ajuntin
+i no es vegin separat, el tag padding serveix per possar espais entre el marge i el borde de la taula i el tag font-size que serveix
+per a escollir el tamany del nostre text **/
 table, th, td {
     font-family: serif;
     border: 1px solid black;    
@@ -6,12 +10,14 @@ table, th, td {
     font-size: medium;
     
 } 
+/**tag color per canviar el color al nostre títol i text-aling per tal d'alinear-lo segons volguem **/
 caption {
     color: blue;
     padding: 15px;
     font-size: medium;
     text-align: center;
 }
+/**Utilitzat tag backgroung-color per tal de posar color al nostre fons de la capçalera de taula**/
 th {
     background-color:darkgray;
 }
