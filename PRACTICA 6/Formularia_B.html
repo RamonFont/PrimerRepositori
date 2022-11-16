@@ -1,0 +1,55 @@
+<!--Document que treballa els aspectes bàsics HTML juntament amb CSS per tal de començar a configurar elements de disseny-->
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>Activitat6</title>
+        <meta charset="utf-8">
+   </head>
+   <body>
+        <!--Començament del formulari-->
+        <form>
+            <!--El label serveix per mostrar el text i el imput serveix per que el ususari introudeixi les dades-->
+            <label for="nom">Nom</label><br>
+            <input type="text" id="nom" name="nom" value="el teu nom"><br><br>
+            <label for="cognom">Cognom</label><br>
+            <input type="text" id="cognom" name="cognom" value="el teu cognom"><br><br>
+            <label for="edat">Edat</label><br>
+            <input type="text" id="edat" name="edat" value="20"><br><br>
+            
+            <!--El radio serveis per que el usuari seleccioni una de les opcions, el checked en el primer imput fa que es seleccioni quen s'obre el formulari-->
+            <p>Cicle formatiu que vols cursar l'any vinent:</p>
+            <label for="dam">DAM</label>
+            <input type="radio" id="dam" name="curs" value="dam" checked><br>       
+            <label for="asix">ASIX</label>
+            <input type="radio" id="asix" name="curs" value="asix"><br>
+            <label for="altre">Altre...</label>
+            <input type="radio" id="altre" name="curs" value="altre"><br><br>
+        
+            <!--El checkbox serveix per que el usuari pugui seleccionar les opcions que vulgui-->
+            <p>Marca les teves aficions:</p>
+            <label for="estudiar">Estudiar</label>
+            <input type="checkbox" id="estudiar" name="aficions" value="estudiar" checked><br>     
+            <label for="asix">ASIX</label>
+            <input type="checkbox" id="asix" name="aficions" value="asix"><br>       
+            <label for="llibres">Llibres</label>
+            <input type="checkbox" id="llibres" name="aficions" value="llibres"><br>
+            <label for="magic">Jugar a Magic</label>
+            <input type="checkbox" id="magic" name="aficions" value="magic"><br>
+            <label for="burilles">Fer burilles</label>
+            <input type="checkbox" id="burilles" name="aficions" value="burilles"><br><br>
+            
+            <!--El text area serveix per que el usuari escrigui un paràgraf, el row serveis per la mesura vertical i el col per la horitzontal-->
+            <label for="altres">Altres</label><br>
+            <textarea id="altres" name="altres" rows="10" cols="50">Especifica quines</textarea><br><br>
+            
+            <!--El select serveix per fer un deplegable i que el usuari escolleixi una resposta, amb selectet podem posar una 
+                resposta predeterminada i les options son les opcions que te el usuari-->
+            <label for="estandard">L'estàndard d'HTML que més m'agrada:</label><br>
+                <select name="estandard" id="estandard">
+                    <option value="HTML_4.01">HTML 4.01</option>
+                    <option value="HTML_1.0">HTML 1.0</option>
+                    <option value="HTML_5" selected>HTML5</option>
+                </select>
+        </form> 
+   </body>
+</html>
