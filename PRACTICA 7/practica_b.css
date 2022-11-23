@@ -1,0 +1,38 @@
+/*Amb -div_item1 modifiquem el estil de la classe posem la 
+posicio relativa per que la poguem moure desde el document*/
+.div_item1{
+    border: 3px solid rgb(236, 236, 61);
+    background-color: rgb(236, 236, 61);
+    position: relative; 
+    left: 20px;
+    top: 40px;
+    width: 160px;
+    height: 120px;
+}
+.div_item2{
+    border: 3px solid rgb(66, 66, 156);
+    background-color: rgb(66, 66, 156);
+    position: absolute; 
+    left: 20px;
+    bottom: 60px;
+    width: 40px;
+    height: 40px;
+}
+.div_item3{
+    border: 3px solid rgb(90, 207, 90);
+    background-color: rgb(90, 207, 90);
+    position: absolute; 
+    left: 100px;
+    top: 140px;
+    width: 160px;
+    height: 120px;
+}
+.div_item4{
+    border: 3px solid rgb(170, 62, 62);
+    background-color: rgb(170, 62, 62);
+    position: absolute; 
+    left: 100px;
+    top: 60px;
+    width: 40px;
+    height: 40px;
+}
