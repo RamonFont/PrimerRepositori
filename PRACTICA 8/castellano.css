@@ -1,5 +1,3 @@
-/**Aqui trobem la capçelera, on hem treballat la direcció dels items del contenidors amb, per exemple, flex-direction,
-ademas de configurar l'estil de les opcions a escollir*/
 .superior{
     flex-direction: row;
     display: flex;
@@ -31,8 +29,7 @@ ademas de configurar l'estil de les opcions a escollir*/
     padding-right: 10px;
     margin-top: 0%;
 }
-/**Aqui treballem el logo de google, on treballem el contenidor que incorpora totes les lletres i després, treballem les lletres juntes
-al contenidor .Google p, i finalment cadascuna per separat per tal de donar-li el seu color corresponent.*/
+/**LOGO*/
 .GOOGLE{
     display: flex;
     justify-content: center;
@@ -70,10 +67,7 @@ al contenidor .Google p, i finalment cadascuna per separat per tal de donar-li e
 .E{
     color: #DB4437;
 }
-/**El buscador de google es divideix en el contenidor del buscador i la configuració de l'input per tal que s'ajunti amb el seu
-contenidor i donin l'impressió d'un buscador.
-Més abaix trobem la configuració de les botoneres principals, la incorporació de les imatges dins del buscador i els links
-que ens donaran l'opció de canviar d'idioma a la pàgina*/
+/**BUSCADOR GOOGLE*/
 .BUSCADOR{
     display: flex;
     justify-content: center;
@@ -114,7 +108,7 @@ que ens donaran l'opció de canviar d'idioma a la pàgina*/
 .lupa{
    
     justify-self: flex-start;
-    margin-top: 0cm;
+    margin-top: 0;
     margin-right: auto;
     align-self: center;
     padding: 0.5em;
@@ -134,14 +128,14 @@ que ens donaran l'opció de canviar d'idioma a la pàgina*/
 }
 
 
-/**Aquest és el peu de pàgina i hem treballat amb tres contenidors on un d'ells es troba dins l'altre*/
+/**FOOTER*/
 
 .Espanya{
     display: flex;
     background-color: rgb(240, 240, 240);
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(114, 114, 114);
-    margin-top: 238px;
+    margin-top: 245px;
     font-size: 14px;
     justify-content: space-between;
     padding: 15px;
@@ -156,24 +150,24 @@ que ens donaran l'opció de canviar d'idioma a la pàgina*/
 .Inferior1{
     display: flex;
     background-color: rgb(240, 240, 240);
-    padding: 5px;
     flex-direction: row;
     flex-flow: nowrap;
     margin-top: 0px;
     justify-content: left space-between;
-    padding: 10px;
+    padding: 8px;
     padding-left: 20px;
     flex-grow: inherit;
     flex-wrap: wrap;
     position: fixed;
-    font-size:medium;    
+    font-size:medium;   
+    
 }
 
 .Inferior1 a{
     text-decoration: none;
     color: rgb(114, 114, 114);
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0.5em;
+    padding: 0.25em;
     font-size: 14px;
 }
 
@@ -181,7 +175,3 @@ que ens donaran l'opció de canviar d'idioma a la pàgina*/
     margin-top: 7px;
     margin-left: 817px;
 }
-
-
-
-
