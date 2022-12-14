@@ -45,6 +45,7 @@ al contenidor .Google p, i finalment cadascuna per separat per tal de donar-li e
     flex-direction: column;
     font-family: arial, sans-serif;
     font-size: 90px;
+    font-weight: bold;
 }
 
 .G {
@@ -84,6 +85,7 @@ que ens donaran l'opció de canviar d'idioma a la pàgina*/
     width: 500px;
     border: 1px solid #e1e2e6;
     margin-left: 500px;
+    margin-right: 20px;
 }
 
 .BUSCADOR input {
@@ -97,12 +99,14 @@ que ens donaran l'opció de canviar d'idioma a la pàgina*/
 .BOTONES {
     text-align: center;
     margin: 0px;
+    
 }
 
 .BOTONES div{
     position: relative;
     margin-top: 20px;
     display: inline-block;
+    margin-right: 8px;
 }
 
 .BOTONES button{
@@ -127,6 +131,7 @@ que ens donaran l'opció de canviar d'idioma a la pàgina*/
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     padding: 1em;
+    margin-right: 0.5cm;
 }
 
 .IDIOMAS a{
